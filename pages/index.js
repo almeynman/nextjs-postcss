@@ -1,4 +1,5 @@
 import stylesheet from "./index.css";
+import globalStyles from "./global.css";
 import Layout from "../components/Layout";
 
 export default () =>
@@ -7,4 +8,5 @@ export default () =>
       <p>Hello World</p>
     </div>
     <style jsx>{stylesheet}</style>
+    <style jsx global>{globalStyles}</style>
   </Layout>;
