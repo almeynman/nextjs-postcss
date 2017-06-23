@@ -12,5 +12,9 @@
     "react-dom": "^15.4.2"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-wrap-in-js": "^1.1.1",
+    "raw-loader": "^0.5.1"
+  }
 }
