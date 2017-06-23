@@ -1,6 +1,6 @@
 .hello {
   font: 15px Helvetica, Arial, sans-serif;
-  background: #eee;
+  background: var(--colorPrimary);
   padding: 100px;
   text-align: center;
   transition: 100ms ease-in background;
