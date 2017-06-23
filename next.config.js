@@ -10,7 +10,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: ["babel-loader", "raw-loader"]
+        use: ["babel-loader", "raw-loader", "postcss-loader"]
       }
     );
     return config;
