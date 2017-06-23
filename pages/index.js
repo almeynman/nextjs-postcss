@@ -1,7 +1,10 @@
 import stylesheet from "./index.css";
+import Layout from "../components/Layout";
 
 export default () =>
-  <div className="hello">
-    <p>Hello World</p>
+  <Layout>
+    <div className="hello">
+      <p>Hello World</p>
+    </div>
     <style jsx>{stylesheet}</style>
-  </div>;
+  </Layout>;
